@@ -1,0 +1,627 @@
+/**
+Theme Name: Astra
+Theme URI: https://wpastra.com/
+Author: Brainstorm Force
+Author URI: https://wpastra.com/about/?utm_source=theme_preview&utm_medium=author_link&utm_campaign=astra_theme
+Description: Astra is fast, fully customizable & beautiful WordPress theme suitable for blog, personal portfolio, business website and WooCommerce storefront. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with Schema.org code integrated and is Native AMP ready so search engines will love your site. It offers special features and templates so it works perfectly with all page builders like Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, etc. Some of the other features: # WooCommerce Ready # Responsive # RTL & Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and WooCommerce ready theme that you can use for building any kind of website!
+Version: 4.1.4
+Requires at least: 5.3
+Tested up to: 6.2
+Requires PHP: 5.3
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra
+Domain Path: /languages
+
+/*HEADER*/
+
+.ast-button-wrap .menu-toggle.main-header-menu-toggle {
+  padding: 10px 0;
+
+}
+
+header.site-header {
+	padding: 0 50px;
+}
+
+body{
+	background: #F9F6F4
+}
+
+#masthead .ast-container,
+.site-header-focus-item+.ast-breadcrumbs-wrapper {
+	max-width: 1140px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+header li.menu-item:last-child a {
+	background: #078EFF;
+	color: white !important;
+	font-size: 15px !important;
+	padding: 10px 30px !important;
+	border-radius: 50px;
+}
+
+header li.menu-item:last-child a:hover{
+	background: white;
+	color: #078EFF !important;
+	border: 2px solid #078EFF
+}
+
+.ast-desktop .ast-primary-header-bar .main-header-menu>.menu-item {
+	margin: 0px 7px;
+}
+
+
+/*FOOTER*/
+
+.site-primary-footer-wrap[data-section="section-primary-footer-builder"] .ast-builder-grid-row {
+	max-width: 1140px;
+}
+
+.site-primary-footer-wrap[data-section="section-primary-footer-builder"] {
+	padding: 50px;
+	margin-top: -1px;
+}
+
+footer a.wp-block-button__link {
+	text-transform: uppercase;
+	font-family: Roboto;
+	font-size: 15px;
+	-webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+footer h2.wp-block-heading,
+footer h3.wp-block-heading {
+	text-transform: uppercase;
+	font-family: Montserrat;
+	font-size: 20px !important;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+footer h2.wp-block-heading {
+	text-transform: uppercase;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.footer-nav-wrap ul li {
+	text-transform: uppercase;
+}
+
+.footer-widget-area h3 {
+	margin-bottom: 20px;
+}
+
+.footer-widget-area p {
+	margin: 0;
+}
+
+footer .wp-block-social-links li a svg {
+	fill: white;
+	width: 25px;
+	height: 25px;
+}
+
+.ast-footer-copyright p {
+	text-transform: uppercase;
+	font-family: Roboto;
+	font-weight: 600;
+}
+
+footer .wp-block-social-links li {
+	background: transparent !important;
+}
+
+
+/*CUSTOM SITE*/
+
+.site-header-section > * {
+  padding: 0 
+}
+
+
+.elementor-counter-title {
+  margin-top: 20px;
+}
+
+.entry-content p {
+	margin-bottom: 0
+}
+
+.text-custom-unique span {
+	color: #078EFF;
+	font-weight: 600;
+}
+
+.text-custom-unique span.red-span {
+	color: #FF4848;
+	font-weight: 400;
+}
+
+.text-custom-unique-2 span {
+	color: white;
+	font-weight: 600
+}
+
+/*HOME*/
+
+/*MAIN*/
+
+/*WELCOME*/
+
+#welcome-custom-text span span {
+	font-weight: 700
+}
+
+/*FORM*/
+
+.formulario-contato form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.formulario-contato form p {
+	width: 100%;
+	margin-bottom: 25px
+}
+
+.formulario-contato form p:nth-of-type(1) {
+	margin-right: auto
+}
+
+.formulario-contato form p:nth-of-type(2) {
+	margin-left: auto
+}
+
+.formulario-contato form p:nth-of-type(1),
+.formulario-contato form p:nth-of-type(2) {
+	width: 48%
+}
+
+.formulario-contato form p:nth-last-of-type(1) {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 0
+}
+
+.formulario-contato form p:nth-last-of-type(1) input[type=submit] {
+	width: 50%;
+	border-radius: 20px;
+	font-weight: 600;
+	font-family: 'Roboto';
+	text-transform: uppercase;
+	background: #A4DF3F;
+	height: 54px;
+	font-size: 15px
+}
+
+.formulario-contato form p:nth-last-of-type(1) input[type=submit]:hover {
+	border: 2px solid #A4DF3F;
+	color: #A4DF3F;
+	background: white
+}
+
+.formulario-contato form p .label-input {
+	position: absolute;
+	z-index: 99;
+	transform: translate(20%, 50%);
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 500;
+	transition: 0.5s
+}
+
+
+
+
+.formulario-contato form p .focus .label-input,
+.formulario-contato form p .focus .label-textarea{
+  transform: translate(20%, -120%);
+  font-size: 10px;
+	transition: 0.5s;
+	color: white
+}
+
+.formulario-contato form p .label-textarea {
+	position: absolute;
+	z-index: 99;
+	transform: translate(10%, 50%);
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.formulario-contato form p input {
+	border-radius: 50px;
+	border: 0;
+}
+
+.formulario-contato form p textarea {
+	border-radius: 20px;
+	border: 0;
+	height: 200px;
+}
+
+/* PROJECTS SLIDE*/
+
+
+.slide_projects {
+	overflow: hidden !important;
+}
+
+.slide_projects .elementor-widget-image-box.swiper-slide .elementor-image-box-wrapper figure {
+	height: 250px;
+}
+
+.slide_projects .elementor-widget-image-box.swiper-slide .elementor-image-box-wrapper figure img {
+	height: 100%;
+	object-fit: cover;
+	border-radius: 20px;
+}
+
+
+.slide_projects .elementor-widget-image-box.swiper-slide .elementor-image-box-wrapper {
+	position: relative;
+}
+
+.slide_projects .elementor-widget-image-box.swiper-slide .elementor-image-box-wrapper p {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translate(0%, -60%);
+	text-align: center;
+	padding: 20px;
+	max-width: 100%;
+	z-index: 99
+}
+
+.slide_projects .elementor-image-box-description{
+	opacity: 0;
+	transition 1s
+}
+
+.slide_projects .elementor-image-box-wrapper:hover .elementor-image-box-description {
+	opacity: 1;
+	transition: 1s
+}
+
+
+.slide_projects .elementor-image-box-img {
+    position: relative;
+}
+
+.slide_projects .elementor-image-box-img::before {
+    content: '';
+	opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+	border-radius: 20px;
+    height: 100%;
+    background-color: rgba(15, 42, 64, 0.7);
+    z-index: 1;
+	transition: 1s;
+	backdrop-filter: blur(7px);
+}
+
+.slide_projects .elementor-image-box-wrapper:hover .elementor-image-box-img::before {
+	opacity: 1;
+	transition: 1s
+}
+
+
+/*EVENTO*/
+
+.image-event {
+  height: 500px;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.image-event img {
+  object-fit: cover;
+  height: 100% !important;
+  object-position: center;
+}
+
+.container-event-page-single{
+	display: flex;
+}
+
+.container-event {
+	width: 100% !important;
+  display: flex;
+  padding: 50px;
+  background: white;
+  border-radius: 40px;
+	-webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.32);
+-moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.32);
+box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.32);
+}
+
+.image-event {
+  width: 50%;
+}
+
+.event-info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 40px;
+}
+
+h3.title-event {
+  font-size: 30px !important;
+  text-transform: uppercase;
+  font-family: 'Montserrat' !important;
+  font-weight: 500;
+  color: #078EFF !important;
+  margin-bottom: 30px;
+}
+
+p.sobre-text {
+  margin-top: 30px;
+}
+
+.event-content p {
+  font-size: 20px !important;
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+
+.event-home {
+  overflow: hidden;
+}
+.event-home  .elementor-widget-container .container-events-group{
+	padding: 60px 0
+}
+
+.swiper-pagination {
+  bottom: -5px !important;
+}
+
+.event-home  .text-custom-unique h2 {
+  color: #1E1E1E;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color: #078EFF !important;
+}
+
+p.title-local {
+  color: #4F575E;
+  font-weight: 600 !important;
+  font-size: 25px !important;
+}
+
+span.swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  background: #078EFF;
+	margin: 0 15px !important;
+}
+
+
+
+@media screen and (max-width: 1110px) {
+	footer .wp-block-button .wp-block-button__link {
+		padding: 15px !important
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	
+	.event-home  .elementor-widget-container .container-events-group{
+		padding: 50px 10px
+	}
+	
+	.container-event {
+		width: 100% !important;
+		display: block;
+	}
+
+	.image-event {
+		width: 100%;
+	}
+
+	.event-info {
+		width: 100%;
+		padding: 0;
+		margin-top: 30px
+	}
+
+	#ast-desktop-header {
+		display: none
+	}
+
+	header.site-header {
+		padding: 0 30px;
+	}
+
+	.site-primary-footer-wrap[data-section="section-primary-footer-builder"] {
+		padding: 30px;
+	}
+
+	.ast-builder-grid-row-4-equal .ast-builder-grid-row {
+		grid-template-columns: repeat(3, 1fr) !important;
+		grid-row-gap: 30px !important;
+	}
+
+	.site-footer-primary-section-1.site-footer-section.site-footer-section-1 {
+		grid-area: 1 / 1 / 2 / 4;
+	}
+
+	.site-footer-primary-section-1.site-footer-section.site-footer-section-1 h2 {
+		text-align: center !important
+	}
+
+	.site-footer-primary-section-1.site-footer-section.site-footer-section-1 p {
+		text-align: center !important;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%
+	}
+
+	.footer-widget-area[data-section="section-footer-menu"] .astra-footer-tablet-horizontal-menu {
+		flex-direction: column;
+	}
+
+
+	footer h2.wp-block-heading,
+	footer h3.wp-block-heading,
+	footer h3 {
+		font-size: 15px !important
+	}
+
+	footer p,
+	footer a.wp-block-button__link {
+		font-size: 13px !important
+	}
+
+	.ast-mobile-popup-inner .ast-builder-layout-element.ast-flex.site-header-focus-item.ast-header-html-1 p {
+		text-align: center !important;
+		font-size: 15px !important;
+		font-weight: 500 !important
+	}
+
+	.ast-mobile-popup-inner .ast-builder-layout-element.ast-flex.site-header-focus-item.ast-header-html-1 p span {
+		font-size: 15px !important;
+		font-weight: 500 !important
+	}
+
+	.ast-builder-layout-element.ast-flex.site-header-focus-item.ast-header-html-2 p {
+		text-transform: uppercase;
+		font-family: 'Montserrat';
+		font-weight: 500;
+		font-size: 20px;
+	}
+
+	.ast-mobile-popup-header {
+		padding: 20px 30px
+	}
+
+	#menu-toggle-close .ahfb-svg-iconset svg,
+	.ast-button-wrap .mobile-menu-toggle-icon .ast-mobile-svg {
+		width: 25px !important;
+		height: 25px !important;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+	
+	.swiper-pagination-bullet {
+	  width: 15px !important;
+	  height: 15px !important;
+	  background: #078EFF;
+	  margin: 0 8px !important;
+	}
+	
+	.text-custom-unique h2 {
+	  font-size: 30px;
+	}
+	
+	.slide_projects .elementor-widget-image-box.swiper-slide .elementor-image-box-wrapper figure {
+	height: 300px;
+}
+	
+	.title-event {
+	  font-size: 20px !important;
+	}
+	
+	.event-content p {
+	  font-size: 16px !important;
+	}
+	
+	.image-event {
+	  height: 300px;
+		border-radius: 10px
+	}
+	
+	.container-event{
+		padding: 40px 20px;
+		border-radius: 20px
+	}
+	
+	.swiper-button-prev, .swiper-rtl .swiper-button-next {
+  	left: -6px !important;
+  	right: auto;
+	}
+	
+	.swiper-button-next, .swiper-rtl .swiper-button-prev {
+  right: -6px !important;
+  left: auto;
+}
+	.swiper-button-next::after, .swiper-button-prev::after {
+  font-size: 20px !important; 
+}
+
+	.formulario-contato form p .label-input {
+		font-size: 11px;
+	}
+
+	.formulario-contato form p .label-textarea {
+		font-size: 11px;
+	}
+
+	.formulario-contato form p:nth-last-of-type(1) input[type=submit] {
+		width: 100%;
+	}
+
+	.formulario-contato form p:nth-of-type(1),
+	.formulario-contato form p:nth-of-type(2) {
+		width: 100%
+	}
+
+	.site-footer-primary-section-1.site-footer-section.site-footer-section-1 p {
+		width: 100%
+	}
+
+	.wp-block-social-links.aligncenter.wp-block-social-links-is-layout-flex,
+	.wp-block-buttons.is-layout-flex.wp-block-buttons-is-layout-flex {
+		justify-content: center !important
+	}
+
+	footer h2.wp-block-heading,
+	footer h3.wp-block-heading,
+	footer h3,
+	footer p {
+		text-align: center !important
+	}
+
+	header.site-header {
+		padding: 0;
+	}
+
+	.site-primary-footer-wrap[data-section="section-primary-footer-builder"] {
+		padding: 40px 20px;
+	}
+
+	.site-footer-primary-section-1.site-footer-section.site-footer-section-1 {
+		grid-area: 1;
+	}
+
+	.ast-builder-grid-row-4-equal .ast-builder-grid-row {
+		grid-template-columns: 1fr !important;
+	}
+}
